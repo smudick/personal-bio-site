@@ -1,14 +1,59 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Bio Site</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal Bio Page</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
 
-    
-    <script src="projects.js"></script>
-</body>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <!-- TODO: Insert some sort of H1-H6 with your name here -->
+      <h1>Sam Mudick</h1>
+      <ul id="navLinks">
+        <li><a id="navToBio">Bio</a></li>
+        <li><a id="navToTechnologies">Technologies</a></li>
+        <li><a id="navToProjects">Projects</a></li>
+      </ul>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Primary View -->
+    <div class="fullPage" id="bioPage">
+      <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+      <h2>About Me</h2>
+      <p>
+        I am Sam. That's me. Bad at writing but good at code (hopefully true by
+        the time you read this). I will fill this bit out more later!
+      </p>
+    </div>
+    <div class="fullPage" id="technologiesPage">
+      <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Flexbox</li>
+        <li>GitHub</li>
+        <li>JavaScript</li>
+        <li>VS Code</li>
+        <li>Command Line</li>
+      </ul>
+    </div>
+    <div class="fullPage" id="projectsPage"></div>
+    <!-- End Primary View -->
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+      <ul>
+        <li>smudick@gmail.com</li>
+        <li><a href="https://www.linkedin.com/in/sammudick/">LinkedIn</a></li>
+        <li><a href="https://github.com/smudick">GitHub</a></li>
+      </ul>
+    </footer>
+    <!-- End Footer -->
+  </body>
 </html>
