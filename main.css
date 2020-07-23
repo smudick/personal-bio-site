@@ -35,10 +35,24 @@ nav {
     text-decoration: none;
     color: white;
     padding: 1em;
-    width: 500px;
+    text-align: center;
 }
 
 .navlink:hover {
     border: floralwhite 1px solid;
 }
 
+.fullPage {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    text-align: center;
+    padding: 3em;
+}
+
+.skillsList {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    list-style: none;
+}
