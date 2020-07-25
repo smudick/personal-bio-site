@@ -5,41 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Personal Bio Page</title>
     <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- Navigation -->
     <nav>
       <!-- TODO: Insert some sort of H1-H6 with your name here -->
-      <h1>Sam Mudick</h1>
-      <ul id="navLinks">
-        <li><a id="navToBio">Bio</a></li>
-        <li><a id="navToTechnologies">Technologies</a></li>
-        <li><a id="navToProjects">Projects</a></li>
+      <h1 class="title">Sam Mudick</h1>
+      <ul class="navLinks" id="navLinks">
+        <li><a id="navToBio" class="navLink" href="#">Bio</a></li>
+        <li><a id="navToTechnologies"  class="navLink" href="#">Technologies</a></li>
+        <li><a id="navToProjects"  class="navLink" href="#">Projects</a></li>
       </ul>
     </nav>
     <!-- End Navigation -->
 
     <!-- Primary View -->
-    <div class="fullPage" id="bioPage">
+    <div class="fullPage aboutMe" id="bioPage">
       <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
       <h2>About Me</h2>
       <p>
-        I am Sam. That's me. Bad at writing but good at code (hopefully true by
-        the time you read this). I will fill this bit out more later!
+        Hello! My name is Sam. I'm originally from Phoenix but have been living in Nashville for the past 10 years. I have worked in various fields from audio engineering, home automation, and information technology since graduating from Belmont University. I am currently a student at Nashville Software School and am learning to become a full stack developer.
       </p>
     </div>
-    <div class="fullPage" id="technologiesPage">
+    <div class="fullPage skillsList" id="technologiesPage">
       <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
       <h2>Skills</h2>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Flexbox</li>
-        <li>GitHub</li>
-        <li>JavaScript</li>
-        <li>VS Code</li>
-        <li>Command Line</li>
+        <li><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML 5 Logo"></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png" alt="CSS 3 Logo"></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript Logo"></li>
+        <li><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github Logo"></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code Logo"></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png" alt="Apple Logo"></li>
+        <li><img src="https://seeklogo.com/images/T/terminal-logo-D3918B1E3A-seeklogo.com.png" alt="Terminal"></li>
       </ul>
     </div>
     <div class="fullPage" id="projectsPage"></div>
