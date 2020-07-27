@@ -5,7 +5,7 @@
 body {
     background-color: white;
     font-family: 'Cabin', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav {
@@ -60,10 +60,14 @@ nav {
     padding: 2em;
     text-align: justify;
 }
+.skillsProjects {
+    display: flex;
+    flex-flow: row nowrap;
+}
 .skillsList {
     display: flex;
     flex-flow: column wrap;
-    width: 40%;
+    width: 30%;
 }
 .skillsList h2 {
     border-bottom: black 1px solid;
@@ -74,13 +78,49 @@ nav {
     justify-content: space-evenly;
     list-style: none;
     padding: 2em;
+    margin: 2em;
 }
 .skillsList img {
     height: 75px;
     width: 75px;
     padding: 10px;
 }
+.projects {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+    width: 60%;
+}
 
+.projectsHeader {
+    border-bottom: black 1px solid;
+    margin-bottom: 1em;
+    text-align: left;
+}
+.project {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 2em;
+}
+.project img {
+    width: 400px;
+}
+.project a {
+    text-decoration: none;
+    color: black;
+}
+.project a:hover {
+    border-bottom: black 1px solid;
+}
+
+.page-footer {
+    width: 100%;
+    bottom: 0px;
+    padding: 1em;
+    background-color: teal;
+    color: white;
+}
 .page-footer ul{
     display: flex;
     flex-flow: row wrap;
@@ -88,14 +128,7 @@ nav {
     list-style: none;
     text-decoration: none;
 }
-.page-footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    padding: 1em;
-    background-color: teal;
-    color: white;
-}
+
 .page-footer a {
     color: white;
     text-decoration: none;
