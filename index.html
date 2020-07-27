@@ -5,7 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Personal Bio Page</title>
     <link rel="stylesheet" href="main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
   </head>
 
   <body>
@@ -15,8 +36,10 @@
       <h1 class="title">Sam Mudick</h1>
       <ul class="navLinks" id="navLinks">
         <li><a id="navToBio" class="navLink" href="#">Bio</a></li>
-        <li><a id="navToTechnologies"  class="navLink" href="#">Technologies</a></li>
-        <li><a id="navToProjects"  class="navLink" href="#">Projects</a></li>
+        <li>
+          <a id="navToTechnologies" class="navLink" href="#">Technologies</a>
+        </li>
+        <li><a id="navToProjects" class="navLink" href="#">Projects</a></li>
       </ul>
     </nav>
     <!-- End Navigation -->
@@ -26,23 +49,65 @@
       <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
       <h2>About Me</h2>
       <p>
-        Hello! My name is Sam. I'm originally from Phoenix but have been living in Nashville for the past 10 years. I have worked in various fields from audio engineering, home automation, and information technology since graduating from Belmont University. I am currently a student at Nashville Software School and am learning to become a full stack developer.
+        Hello! My name is Sam. I'm originally from Phoenix but have been living
+        in Nashville for the past 10 years. I have worked in various fields from
+        audio engineering, home automation, and information technology since
+        graduating from Belmont University. I am currently a student at
+        Nashville Software School and am learning to become a full stack
+        developer.
       </p>
     </div>
-    <div class="fullPage skillsList" id="technologiesPage">
-      <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-      <h2>Skills</h2>
-      <ul>
-        <li><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML 5 Logo"></li>
-        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png" alt="CSS 3 Logo"></li>
-        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript Logo"></li>
-        <li><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github Logo"></li>
-        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code Logo"></li>
-        <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png" alt="Apple Logo"></li>
-        <li><img src="https://seeklogo.com/images/T/terminal-logo-D3918B1E3A-seeklogo.com.png" alt="Terminal"></li>
-      </ul>
+    <div class="skillsProjects">
+      <div class="fullPage skillsList" id="technologiesPage">
+        <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <img
+              src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
+              alt="HTML 5 Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://www.logolynx.com/images/logolynx/ee/ee6197d1b17644329226e0587dce4a9c.png"
+              alt="CSS 3 Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/javascript.svg"
+              alt="Javascript Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="Github Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://secrethub.io/img/vs-code.svg"
+              alt="VS Code Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://www.applegazette.com/wp-content/uploads/2007/05/apple_gray.jpg"
+              alt="Apple Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://seeklogo.com/images/T/terminal-logo-D3918B1E3A-seeklogo.com.png"
+              alt="Terminal"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="fullPage projects" id="projectsPage"></div>
     </div>
-    <div class="fullPage" id="projectsPage"></div>
     <!-- End Primary View -->
 
     <!-- Footer -->
@@ -55,5 +120,6 @@
       </ul>
     </footer>
     <!-- End Footer -->
+    <script src="projects.js"></script>
   </body>
 </html>
